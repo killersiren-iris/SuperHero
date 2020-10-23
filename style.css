@@ -1,0 +1,52 @@
+@import url('https://fonts.googleapis.com/css2?family=Dosis:wght@400;700&family=Lobster&display=swap');
+
+body {
+    font-family: 'Dosis', sans-serif;
+    background: url("https://cnet1.cbsistatic.com/img/ImdO7N8BJnQWFqiWycjGPNiy5uo=/940x0/2019/12/05/ca0cc0e3-d162-4db6-9484-96588e8d6710/female-superheroes-collage.jpg");
+    background-size: 100% 100%;
+}
+
+section {
+    width: 500px;
+    background-color: white;
+    margin: auto;
+    padding: 10px 0 10px 0;
+}
+
+div {
+    text-align: center;
+}
+
+label {
+    font-weight: bold;
+}
+
+input, textarea {
+    margin-top: 10px;
+}
+
+p, input[type="text"], input[type="number"], textarea, form {
+    width: 350px;
+    padding: 8px;
+}
+
+p, form {
+    margin: auto;
+}
+
+input[type="submit"]{
+    display: block;
+    background-color: black;
+    color: white;
+    margin: auto;
+    width: 300px;
+    padding: 10px;
+    border: none;
+    border-radius: 5px;
+    font-weight: bold;
+}
+
+input[type="checkbox"]{
+    margin-left: 5px;
+    margin-right: 5px;
+}
